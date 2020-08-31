@@ -41,9 +41,9 @@ class removeNode{
         }
         
         if(val < node.data){
-            return removeNode(node.left, val);
+            node.left = removeNode(node.left, val);
         }else if(val> node.data){
-            return removeNode(node.right, val);
+            node.right = removeNode(node.right, val);
         }else{
             if(node.left != null && node.right != null){
                 int lmax = max(node.left);
@@ -58,6 +58,7 @@ class removeNode{
                 return null;
             }
         }
+        return node;
     }
 
     public static void display(Node node){

@@ -12,3 +12,5 @@ find$Node.class
 find.class
 addNode$Node.class
 addNode.class
+removeNode$Node.class
+removeNode.class

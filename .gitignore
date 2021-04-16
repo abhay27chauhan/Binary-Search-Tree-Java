@@ -27,3 +27,5 @@ targetSumPair2.class
 targetSumPair3$Pair.class
 targetSumPair3$Node.class
 targetSumPair3.class
+constructBSTFromPreorder.class
+constructBSTFromPostorder.class
